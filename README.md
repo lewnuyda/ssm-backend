@@ -24,13 +24,14 @@ php artisan key:generate
 ```
 ### **5. Environment Setup**
 
+```bash
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_DATABASE=dbssm
 DB_USERNAME=root
 DB_PASSWORD=
-
+```
 ### **6. Database Setup**
 
 Run migrations to create database tables:
